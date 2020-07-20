@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+      <title>Seble's Amazing Website</title>
+      <style>
+    body {
+        background: rgb(125, 198, 205);
+        color: rgb(45, 45, 45);
+        padding: 10px;
+        font-family: arial;
+    }
+    #all-contents {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    /* navigation menu */
+    nav {
+        background: rgb(239, 80, 41);
+        margin: 0 auto;
+        margin-bottom: 20px;
+        border-radius: 30px;
+        display: flex;
+        padding: 10px;
+    }
+    nav h1 {
+        display: flex;
+        align-items: center;
+        color: white;
+        flex: 1;
+        margin: 0;
+    }
+    nav ul {
+        list-style-image: none;
+    }
+    nav li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+    nav a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    /* main container area beneath menu */
+    main {
+        background: rgb(245, 238, 219);
+        display: flex;
+    }
+    .sidebar {
+        margin-right: 25px;
+        padding: 10px;
+    }
+    .sidebar img {
+        width: 200px;
+    }
+    .content {
+        flex: 1;
+        padding: 15px;
+    }
+    h2, h3 {
+        margin: 0px;
+    }
+</style>
+    </head>
+    
+    <body>
+       <div id="all-contents"> 
+        <nav>
+            <h1>Seble's Awesome First Website</h1>
+            <ul>
+                <li>
+                  <a href="index.html"> Home </a>
+                </li>
+                <li>
+                  <a href="portfolio.html"> Portfolio </a>
+                  </li>
+            </ul>
+        </nav>
+
+        <main>
+             <div class="sidebar">
+                <img src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/89531812_4566428241139_521586021041700864_n.jpg?_nc_cat=108&_nc_sid=09cbfe&_nc_ohc=yrc3vmim0YYAX_eF6PH&_nc_ht=scontent-ort2-2.xx&oh=bb218656a3f61a3a9e804e849a218dc4&oe=5F3A2C41" border="20">
+            </div>
+
+            <div class="content">
+              <h2>Seble</h2>
+              <p>Student at Operation Spark</p>
+              <div class="interests">
+                <h3>Interests</h3>
+                <ul>
+                    <li>Traveling</li>
+                    <li>Coding</li>
+                    <li>Reading</li>
+                </ul>
+            </div>
+        </main>
+    </div>
+    </body>
+</html>
